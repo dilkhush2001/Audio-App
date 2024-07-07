@@ -1,0 +1,28 @@
+name: demoapp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_auth:
+  cloud_firestore:
+  percent_indicator:
+  audioplayers:
+  just_audio:
+  provider :
+  firebase_core:
+  cupertino_icons:
+  font_awesome_flutter:
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
